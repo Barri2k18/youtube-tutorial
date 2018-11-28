@@ -4,7 +4,7 @@ const db = require('quick.db');
 
 client.on('ready', () => {
     console.log(`Logged in as ${client.user.tag}!`);
-    client.user.setStatus('online');
+    client.user.setStatus('idle');
     client.user.setActivity('with YouTube');
 });
 
